@@ -12,7 +12,7 @@ const srcToImg = require('./helper/srcToImg')
 
 	await page.setViewport({
 		width: 1920,
-		height: 20000
+		height: 4000
 	})
 
 	await page.focus('#kw')
